@@ -20,3 +20,6 @@ On Mac/Linux run
 
 `$ water get yasu`
 
+### See the CLI's help
+
+`$ water`
