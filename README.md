@@ -2,6 +2,8 @@
 
 CLI for fast access to scripts, homepage of this service at [Waterdeep](https://waterdeep.io)
 
+For more information about Waterdeep visit the [About Page](https://waterdeep.io/about)
+
 ## Installation
 
 On Mac/Linux run
