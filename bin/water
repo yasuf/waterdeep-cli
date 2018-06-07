@@ -4,6 +4,6 @@ const program = require('commander');
 
 program
   .version('0.1.0')
-  .command('get [username]', 'Retrieve a list of files for a username', { isDefault: true })
+  .command('get [username]', 'Retrieve a list of files for a username')
   .command('get [username/filename]', 'Retrieve a file by username/filename')
   .parse(process.argv);
