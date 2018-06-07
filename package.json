@@ -1,14 +1,18 @@
 {
   "name": "waterdeep-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "description": "Waterdeep command line interface",
+  "author": "Yasu Flores",
   "license": "ISC",
+  "keywords": "cli,waterdeep,cloud,hosting,scripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yasuf/waterdeep-cli"
+  },
   "dependencies": {
     "commander": "^2.15.1"
+  },
+  "bin": {
+    "water": "./bin/water"
   }
 }
