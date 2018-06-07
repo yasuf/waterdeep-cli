@@ -51,3 +51,8 @@ AboutWaterdeep.md
 ### See the CLI's help
 
 `$ water --help`
+
+
+### Create an account and upload files at
+
+[Waterdeep](https://www.waterdeep.io)
