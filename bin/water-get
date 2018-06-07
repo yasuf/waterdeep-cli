@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+const get = require('../src/get');
+
+program
+  .parse(process.argv);
+
+const route = program.args[0];
+
+if (!route) {
+  console.error('"route" required');
+  process.exit(1);
+}
+
+const baseUrl = 'http://raw.waterdeep.io';
+
+get(`${baseUrl}/${route}`, (rawResponse) => {
+  console.log(rawResponse);
+})
