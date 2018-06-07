@@ -9,7 +9,7 @@ program
 const route = program.args[0];
 
 if (!route) {
-  console.error('"route" required');
+  console.error('"username" or "username/filename" required as an argument');
   process.exit(1);
 }
 
