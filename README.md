@@ -1,3 +1,5 @@
+![CircleCI](https://img.shields.io/circleci/project/github/yasuf/waterdeep-cli.svg)
+
 ![NPM Version](https://img.shields.io/npm/v/waterdeep-cli.svg)
 
 # Waterdeep CLI
