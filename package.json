@@ -5,6 +5,9 @@
   "author": "Yasu Flores",
   "license": "ISC",
   "keywords": "cli,waterdeep,cloud,hosting,scripts",
+  "scripts": {
+    "test": "echo \"TODO: Add tests\""
+  }
   "repository": {
     "type": "git",
     "url": "https://github.com/yasuf/waterdeep-cli"
