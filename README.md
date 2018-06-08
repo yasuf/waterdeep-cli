@@ -1,3 +1,5 @@
+![NPM Version](https://img.shields.io/npm/v/waterdeep-cli.svg)
+
 # Waterdeep CLI
 
 CLI for fast access to scripts, homepage of this service at [Waterdeep](https://waterdeep.io)
