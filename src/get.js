@@ -1,4 +1,6 @@
 const http = require('http');
+const validations = require('./validations');
+
 /*
  * @callback requestCallback
  * @param {string} rawData raw data from GET response
@@ -10,20 +12,9 @@ const http = require('http');
  */
 module.exports = function get(url, callback) {
   http.get(url, (response) => {
-    const { statusCode } = response;
-    const contentType = response.headers['content-type'];
 
-    let error;
-    if (statusCode !== 200) {
-      error = new Error(`Request failed\n Status Code: ${statusCode}`);
-    }
-    if (/^application\/json/.test(contentType)) {
-      error = new Error(`Invalid content-type\n Expected application/json but received ${contentType}`);
-    }
-    if (error) {
-      console.error(error.message);
-      process.exit(1);
-    }
+    validations.checkStatusCode(response);
+    validations.checkContentType(response);
 
     let rawData = '';
 
